@@ -1,0 +1,15 @@
+{
+  "name": "knip-vite-lib-entry-repro",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "knip": "knip --production"
+  },
+  "devDependencies": {
+    "knip": "6.44.1",
+    "vite": "7.1.12"
+  }
+}
